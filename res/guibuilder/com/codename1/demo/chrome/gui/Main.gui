@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Chrome" >
+  <component type="Tabs" name="Tabs" cloudDestinationProperty="Tabs" >
+    <layoutConstraint value="Center" />
+    <custom name="titles" type="java.lang.String" array="true" dimensions="1" >
+      <str>Components</str>
+      <str>Elements</str>
+      <str>Button</str>
+      <str>Item</str>
+    </custom>
+    <custom name="icons" type="com.codename1.ui.Image" array="true" dimensions="1" >
+      <str>tab-icon1@2x.png</str>
+      <str>tab-icon2@2x.png</str>
+      <str>tab-icon3@2x.png</str>
+      <str>tab-icon4@2x.png</str>
+    </custom>
+    <custom name="selectedIcons" type="com.codename1.ui.Image" array="true" dimensions="1" >
+      <str>tab-icon1@2x.png</str>
+      <str>tab-icon2@2x.png</str>
+      <str>tab-icon3@2x.png</str>
+      <str>tab-icon4@2x.png</str>
+    </custom>
+    <component type="Container" name="Container3" tabTitle="Components" cloudDestinationProperty="Container3" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="Container" name="Container5" cloudDestinationProperty="Container5" uiid="CalendarFrame" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+        <layoutConstraint value="Center" />
+        <component type="Calendar" name="Calendar"  cloudDestinationProperty="Calendar" >
+          <layoutConstraint value="Center" />
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="Container2" tabTitle="Elements" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Slider" name="Slider"  cloudDestinationProperty="Slider" text="" editable="true" thumbImage="handle@2x.png" >
+      </component>
+      <component type="TextField" name="TextField"  cloudBoundProperty="text" cloudDestinationProperty="TextField" text="TextField" >
+      </component>
+    </component>
+    <component type="Container" name="Container4" tabTitle="Button" cloudDestinationProperty="Container4" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+      <component type="Container" name="Container6" cloudDestinationProperty="Container6" layout="BoxLayout" boxLayoutAxis="Y" >
+        <component type="Button" name="Button5"  cloudDestinationProperty="Button5" text="Button" >
+        </component>
+        <component type="Button" name="Button4"  cloudDestinationProperty="Button4" uiid="MetalButton" text="Button" >
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="Container1" tabTitle="Item" cloudDestinationProperty="Container1" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="MultiList" name="MultiList"  itemGap="0" >
+        <layoutConstraint value="Center" />
+      </component>
+    </component>
+  </component>
+</component>
