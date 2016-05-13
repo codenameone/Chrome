@@ -2,7 +2,7 @@
 
 <img align="right" width="400px" src="https://www.codenameone.com/img/chrome-portrait.png" alt="Chrome Demo">
 
-The chrome demo has simplistic design due to lack of update to its http://www.appdesignvault.com/shop/chrome/[source application]. The original demo was based on an iOS native template designed during the iOS 4.x days and the template was never updated to modern flat design heuristics. 
+The chrome demo has simplistic design due to lack of update to its [source application](http://www.appdesignvault.com/shop/chrome/). The original demo was based on an iOS native template designed during the iOS 4.x days and the template was never updated to modern flat design heuristics. 
  
 We still think this demo is of interest so we chose to keep it and modernized it a bit. The original version was written on top of the old GUI builder, it was adapted to the new GUI builder. We removed a lot of the textures and old icons from the design and replaced some of the fonts with the new fonts & material design icons. 
 
